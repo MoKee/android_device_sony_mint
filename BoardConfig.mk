@@ -3,7 +3,7 @@ include device/sony/blue-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/mint/include
 
-TARGET_KERNEL_CONFIG := cm_blue_mint_defconfig
+TARGET_KERNEL_CONFIG := mokee_blue_mint_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 18
@@ -27,7 +27,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 TARGET_OTA_ASSERT_DEVICE := LT30p,mint
 
-BOARD_HARDWARE_CLASS := device/sony/mint/cmhw
+BOARD_HARDWARE_CLASS := device/sony/mint/mkhw
 
 # inherit from the proprietary version
 -include vendor/sony/mint/BoardConfigVendor.mk
