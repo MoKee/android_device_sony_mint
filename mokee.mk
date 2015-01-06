@@ -1,8 +1,5 @@
 $(call inherit-product, device/sony/mint/full_mint.mk)
 
-# Inherit MK common GSM stuff.
-$(call inherit-product, vendor/mk/config/gsm.mk)
-
 # Enhanced NFC
 #$(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
 
