@@ -15,8 +15,8 @@
 # limitations under the License.
 #
 
-# Inherit common Lineage stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common MK stuff
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configurations
 $(call inherit-product, device/sony/mint/device.mk)
@@ -27,7 +27,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Device identifications
 PRODUCT_DEVICE := mint
-PRODUCT_NAME := lineage_mint
+PRODUCT_NAME := mk_mint
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia T
